@@ -1,0 +1,29 @@
+
+.timer, 
+.tasks{
+    width: 50%;
+    padding: 50px 75px;
+}
+
+.timer{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(158, 226, 0, 0.5), rgba(158, 226, 0, 0.5)),
+     url('https://github.com/lucasbeskow/clock/blob/main/forest.jpg?raw=true') 50% / cover no-repeat;
+}
+
+.counter{
+    flex-grow: 1;
+    align-content: center;
+}
+
+#clock{
+    font-size: 8rem;
+    font-weight: 900;
+}
+
+.cicle{
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 16px;
+}
